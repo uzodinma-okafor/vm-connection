@@ -16,26 +16,27 @@ This tutorial outlines connection to an Azure Virtual Machine via Microsoft Remo
 - Windows 10 (21H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
-1. Find & Copy Public IP address of your Virtual Machine (In Azure Portal)
-2. Open up Microsoft Remote Desktop Connection
-3. Connect to the Virtual Machine (VM) with its Public IP Address
-4. Log into the VM with required login credentials
+1. Follow tutorial for <a href="https://github.com/uzodinma-okafor/vm-creation">Creation of a Virtual Machine via Microsoft Azure</a>, then go to next step.
+2. Find & Copy Public IP address of your Virtual Machine (In Azure Portal)
+3. Open up Microsoft Remote Desktop Connection
+4. Connect to the Virtual Machine (VM) with its Public IP Address
+5. Log into the VM with required login credentials
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Deployment and Configuration Steps</h2> 
 
 <p>
-<img src="https://i.imgur.com/RIlGKUA.png" height="50%" width="33%" alt="Virtual Machine Setup Steps"/><img src="https://i.imgur.com/EO2Ya60.png" height="50%" width="33%" alt="Virtual Machine Setup Steps"/><img src="https://i.imgur.com/eTcgsMY.png" height="50%" width="33%" alt="Virtual Machine Setup Steps"/>
+<img src="https://i.imgur.com/Km5cMCW.png" height="80%" width="80%" alt="Virtual Machine Connection Steps"/>
 </p>
 <p>
-Set up your Azure subscription and log into portal.azure.com. On the home page (1st pic from left), click on Resource Groups icon under "Azure services" or type in Resource Groups in search bar and then click on the same icon. You'll arrive at the dashboard page (2nd pic in middle) for all your resource groups (RGs) in your subscription. Click on the blue "Create resource group" button or click on "+Create" underlined on top left of page to create a new RG. On the next page (3rd pic on right), choose your RG name and its region. For this example, this RG is "AD-Lab-RG" and its chosen region is "East US". After that, click "Review + Create".
+After getting to your VM in in the Azure portal, find & copy Public IP address of your Virtual Machine in the top right of page. You can click the copy button that appears when you hover over the IP address and it's instantly copied. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/nk9zIGY.png" height="50%" width="50%" alt="Virtual Machine Setup Steps"/><img src="https://i.imgur.com/S3kaKBv.png" height="50%" width="50%" alt="Virtual Machine Setup Steps"/>
+<img src="https://i.imgur.com/M2lCrKO.png" height="80%" width="80%" alt="Virtual Machine Connection Steps"/>
 </p>
 <p>
-The RG will pass through validation. After it passes validation, click on "Create" button. Now the RG is built, we'll move on to creating the virtual machine (VM) that will be assigned to it.
+Open up the Start menu on your computer and search for "remote desktop connection". Open up Microsoft Remote Desktop Connection. Paste in the Public IP address of your VM and click "Connect".
 </p>
 <br />
 
