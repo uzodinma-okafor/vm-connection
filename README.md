@@ -33,7 +33,7 @@ After getting to your VM in in the Azure portal, find & copy Public IP address o
 <br />
 
 <p>
-<img src="https://i.imgur.com/M2lCrKO.png" height="80%" width="80%" alt="Virtual Machine Connection Steps"/>
+<img src="https://i.imgur.com/M2lCrKO.png" height="50%" width="33%" alt="Virtual Machine Connection Steps"/><img src="https://i.imgur.com/f39jpDG.png" height="50%" width="33%" alt="Virtual Machine Connection Steps"/>
 </p>
 <p>
 Open up the Start menu on your computer and search for "remote desktop connection". Open up Microsoft Remote Desktop Connection. Paste in the Public IP address of your VM and click "Connect".
