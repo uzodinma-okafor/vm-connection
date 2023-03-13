@@ -28,7 +28,7 @@ This tutorial outlines connection to an Azure Virtual Machine via Microsoft Remo
 <img src="https://i.imgur.com/Km5cMCW.png" height="80%" width="80%" alt="Virtual Machine Connection Steps"/>
 </p>
 <p>
-After getting to your VM in in the Azure portal, find & copy Public IP address of your Virtual Machine in the top right of page. You can click the copy button that appears when you hover over the IP address and it's instantly copied. 
+This tutorial continues from last point of the previous tutorial, <a href="https://github.com/uzodinma-okafor/vm-creation">Creation of a Virtual Machine via Microsoft Azure</a>, with the same example VM named Client-1. After accessing your VM information page in the Azure portal, find & copy Public IP address of your Virtual Machine in the top right of page. You can click the copy button that appears when you hover over the IP address and it's instantly copied. The IP address for this example is 20.62.170.74.
 </p>
 <br />
 
@@ -44,14 +44,14 @@ Open up the Start menu on your computer and search for "remote desktop connectio
 <img src="https://i.imgur.com/nBJAGWx.png" height="50%" width="33%" alt="Virtual Machine Setup Steps"/><img src="https://i.imgur.com/BWOg2Ez.png" height="50%" width="33%" alt="Virtual Machine Setup Steps"/><img src="https://i.imgur.com/X4QnLFj.png" height="50%" width="33%" alt="Virtual Machine Setup Steps"/>
 </p>
 <p>
-(In left pic) Start typing in the search bar "virtual machines". Click on the virtual machines icon that comes up in the drop down menu. On next page (middle pic), you can click the Create button in the top left or the create button in the center of the page. Click on "Azure virtual machine" from the menu of options that pops up. On the next page (right pic), fill out the required details for your virtual machine (resource group, VM name, region, image, and Administrator account username & password). In this example so far, RG is AD-Lab-RG, VM name is Client-1, Region is East US, and image is Windows 10 Pro version 21H2.
+(Left pic) You'll see new window asking you to enter your credentials (username and password). The username and password for Client-1 is labuserdin and Virtual123mach. Click "OK" after entering the credentials. The next window that comes up(middle pic) specifies it can't verify the computer you're connecting to and wants to ask if you still want to connect to it. The computer it's referring to is your virtual machine. Click "Yes" at the bottom of the window to proceed. (Right pic) A window opens up to your VM logging into its Windows 10 OS. This will take a few minutes. At this point, the public IP address of the VM can be seen at the top of the screen in a central blue bar.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/svKHavc.png" height="50%" width="33%" alt="Virtual Machine Setup Steps"/>
+<img src="https://i.imgur.com/svKHavc.png" height="80%" width="80%" alt="Virtual Machine Setup Steps"/>
 </p>
 <p>
-(Left pic) Fill out the remaining required details for your VM (Administrator account username & password). In this example, username is labuserdin and password is Virtual123mach. Leave other required fields with preselected default choices alone. Check the box confirming you have an eligible Windows 10/11 license and then click "Review & create" below. On next page (middle pic), you should see that your VM passed validation. Click "create" at the bottom of the page below. Repeat the steps for filling out info for the VM again IF you click "Review & create" and you don't pass validation soon after. On the next page (left pic), you'll see deployment of your virtual machine is in progress. This will take a few minutes.
+After loading for a few minutes, the Windows 10 desktop of your VM will appear. You can now perform different tasks directly on your VM.
 </p>
 <br />
