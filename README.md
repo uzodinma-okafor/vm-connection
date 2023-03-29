@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/TyIUVZZ.png" alt="Microsoft Azure Cloud Logo"/>
 </p>
 
-<h1>Connecting to & Utilization of Virtual Machines via Microsoft Remote Desktop Cnnection</h1>
+<h1>Connecting to & Utilization of Virtual Machines via Microsoft Remote Desktop Connection</h1>
 This tutorial outlines connection to an Azure Virtual Machine via Microsoft Remote Desktop Connection.<br/>
 
 
